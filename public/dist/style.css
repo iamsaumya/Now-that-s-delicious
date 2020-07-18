@@ -857,7 +857,7 @@ label {
           clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0% 100%); }
   .single__hero:before {
     display: block;
-    content: '';
+    content: "";
     position: absolute;
     height: 100%;
     width: 100%;
@@ -880,7 +880,7 @@ label {
 .single__details {
   background: white;
   position: relative;
-  padding: 3rem;
+  padding: 0 0 2rem 0;
   margin-top: -10rem;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.15); }
 
