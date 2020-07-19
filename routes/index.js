@@ -14,6 +14,6 @@ router.post('/add',storeController.upload,catchErrors(storeController.resize),ca
 router.post('/add/:id',catchErrors(storeController.updateStore));
 
 router.get('/tags',catchErrors(storeController.getStoresByTag))
-router.get('/tags/:id',catchErrors(storeController.getStoresByTag))
+router.get('/tags/:tag',catchErrors(storeController.getStoresByTag))
 
 module.exports = router;
