@@ -19,7 +19,7 @@ router.get('/tags/:tag',catchErrors(storeController.getStoresByTag))
 
 router.get('/login',userController.loginForm)
 
-router.post('/register',userController.validateRegister,userController.registerForm)
+router.post('/register',userController.validateRegister,userController.register)
 router.get('/register',userController.registerForm)
 
 module.exports = router;
