@@ -12,7 +12,7 @@
 
 # Installation
 
-Outline requires the following dependencies:
+Now that's delicious requires the following dependencies:
 
 - [Node.js](https://nodejs.org/)
 - [Npm](https://www.npmjs.com/)
